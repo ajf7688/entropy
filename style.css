@@ -404,8 +404,8 @@ ul.cart-list>li.total>a.btn:hover {
 	color: #fff;
 	font-size: 35px;
 	line-height: 50px;
-	margin-top: 0.25em;
-	margin-bottom: 0.25em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 
 	font-family: "Titillium Web",sans-serif;
 }
