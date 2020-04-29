@@ -404,6 +404,7 @@ ul.cart-list>li.total>a.btn:hover {
 	color: #fff;
 	font-size: 35px;
 	line-height: 50px;
+
 	margin-top: 1em;
 	margin-bottom: 1em;
 
@@ -437,6 +438,11 @@ background-color: rgba(0,0,0,.5);
 }
 
 @media (max-width: 768px) {
+    .slider-content {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
 	.slider-content a{
 		padding: 8px 15px;
 	}
