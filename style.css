@@ -1537,3 +1537,10 @@ li.rating ul i {
 .copyright-wrapper a{
 	color: #fff;
 }
+
+code {
+  background-color: white;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
