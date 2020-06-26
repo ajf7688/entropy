@@ -184,8 +184,7 @@
 						<div class="intro-title text-center">
 							<h3>Live Score API</h3>
 								<p>
-
-									Our Live Score API provides real-time analysis and trends about the blockchain ecosystem by looking at projects with development progress, consumer adoption data & mid to long term public sentiments.
+									Our API provides a score across an asset class based on consumer adoption data & mid to long term public sentiments (speculation score has been excluded).
 								</p>
 						</div>
 					</div>
@@ -197,9 +196,9 @@
 						<div class="single-intro">
 							<div class="intro-img intro-bg3"></div>
 							<div class="intro-details text-center">
-								<h3>Data driven insights</h3>
+								<h3>Relevant insights</h3>
 								<p>
-									We facilitate data driven analysis of projects over instinct or intuition based outlooks.
+									Data driven analysis of projects over instinct or intuition based outlooks.
 
 								</p>
 							</div>
@@ -226,7 +225,7 @@
 							<div class="intro-details text-center">
 								<h3>Customized dashboards</h3>
 								<p>
-									We also build custom dashboards based on additional data points and specific use cases.
+									Custom dashboards based on additional data points and specific use cases.
 								</p>
 							</div>
 						</div>
@@ -239,10 +238,21 @@
 
 								<p>
 
-  <code>
-REQUEST : 	  curl https://entropy.live?q=sfdsdfsdfsdf
+<code>
+REQUEST : 	  curl https://entropy.live?q=Defi,DAO&key=BZ1kugii8woybwej9sdfn
 	    <br>
-RESPONSE : { "score": 12 , "q" : "sfdsdfsdfsdf" }
+RESPONSE : {
+	"data": [{
+		"score": 12,
+		"q": "Defi",
+		"updated" : 1572158501,
+	}, {
+		"score": 12,
+		"q": "DAO",
+		"updated" : 1572158501,
+	}],
+	"status": 1
+}
   </code>
 								</p>
 						</div>
