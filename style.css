@@ -1538,9 +1538,12 @@ li.rating ul i {
 	color: #fff;
 }
 
+
+pre {
+    white-space: pre-wrap;
+    background: white
+}
+
 code {
-  background-color: white;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
+    background: #ae8;
 }
