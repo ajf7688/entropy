@@ -1,0 +1,13 @@
+<a id="tweets" class="twitter-timeline">Tweets by CryptoSlate</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+    function getUrlVars() {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
+      function(m,key,value) {
+        vars[key] = value;
+      });
+      return vars;
+    }
+    var handle = getUrlVars()["handle"];
+    document.getElementById('tweets').setAttribute("href", "https://twitter.com/" + handle + "?ref_src=twsrc%5Etfw");  
+</script>
