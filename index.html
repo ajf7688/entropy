@@ -35,6 +35,77 @@
   gtag('config', 'UA-1944294-11');
 </script>
 
+<style>
+
+	/* Tested only in latest version of Chrome, Firefox, Edge, and IE as of July 2018. I first created this pen in July 2014. */
+
+.flex-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.flex-container li {
+  list-style: none;
+  flex-grow: 1;
+}
+.twitter {
+  background-color: #55acee;
+  order: 5;
+}
+.twitter:hover {
+  background-color: #6fb9f1;
+}
+.facebook {
+  background-color: #3b5998;
+  order: 3;
+}
+.facebook:hover {
+  background-color: #4365ad;
+}
+.linkedin {
+  background-color: #0976b4;
+  order: 1;
+}
+.linkedin:hover {
+  background-color: #0a89d1;
+}
+.codepen {
+  background-color: #181818;
+  order: 2;
+}
+.codepen:hover {
+  background-color: #262626;
+}
+.dribbble {
+  background-color: #ea4c89;
+  order: 4;
+}
+.dribbble:hover {
+  background-color: #ed6499;
+}
+.twitter, 
+.facebook,
+.linkedin,
+.codepen,
+.dribbble,
+.twitter:hover, 
+.facebook:hover, 
+.linkedin:hover,
+.codepen:hover,
+.dribbble:hover {
+  transition: background-color .5s ease;
+}
+.flex-container a {
+  display: block;
+}
+.flex-container i {
+  color: #fff;
+  line-height: 100px;
+  width: 100%;
+  text-align: center;
+}
+</style>
+
 
 	</head>
 
@@ -187,7 +258,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
-							<h3>Our Community</h3>
+						<h3>Our Community</h3>
+
+					</div>
+
+					<div class="col-md-8">
+							
 							<!-- Place <div> tag where you want the feed to appear -->
 
 								<p class="text-center">
@@ -207,7 +283,16 @@ e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 					</div>
 
 					<div class="col-md-4">
-								<div class="embed-responsive embed-responsive-4by3">
+
+
+						<ul class="flex-container">
+							<li class="twitter"><a target="_blank" href="https://twitter.com/entropy_co"><i class="fa fa-twitter fa-2x" role="button"></i></a></li>
+							<li class="facebook"><a target="_blank" href="https://www.facebook.com/entropy.community"><i class="fa fa-facebook fa-2x" role="button"></i></a></li>
+							<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/entropy-tech"><i class="fa fa-linkedin fa-2x" role="button"></i></a></li>
+						</ul>
+
+
+						<div class="embed-responsive embed-responsive-4by3">
 									<iframe class="embed-responsive-item" src="https://thedigital.substack.com/embed"></iframe>
 								  </div>
 
@@ -245,13 +330,13 @@ e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 
 								<p>
 
-<b>Acirra</b> is an on-chain analysis tool to study public blockchains, used to derive insights from transactions in realtime.
+Entropy builds on-chain analysis tool to study public blockchains, used to derive insights from transactions in realtime.
 <br>
-<i class="fa fa-lightbulb-o"></i> Acirra was first conceptualized in mid 2016, built as a side project with limited beta releases.
+<i class="fa fa-lightbulb-o"></i> Entropy was first conceptualized in mid 2016, built as a side project with limited beta releases.
 <br>
 <i class="fa fa-flash"></i> In Jan 2018, a full v1 was released as an API for developers.
 <br>
-<i class="fa fa-star"></i> Acirra now has 25+ metrics for users to explore and analyse trends with.
+<i class="fa fa-star"></i> Entropy now has 25+ metrics for users to explore and analyse trends with.
 								</p>
 
 <a target="_blank" href="https://t.me/entropyco">Request a Demo</a>
