@@ -511,12 +511,7 @@ background-color: rgba(0,0,0,.5);
 .block.about-us-block h2 {
 	margin-top: 30px;
 }
-.block-img {
-
-	display: inline-block;
-    vertical-align: middle;
-    float: none;
-	
+.block-img {	
 	padding-left: 3em;
     padding-right: 3em;
     padding-top: 1em;
