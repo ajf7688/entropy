@@ -484,6 +484,13 @@ background-color: rgba(0,0,0,.5);
 
 /* ================ Block area ================== */
 
+
+.row-fix {
+	display: flex;
+	flex-wrap: wrap;
+	width:100%; /*not always necessary*/
+  }
+
 .block.block2{
 	padding: 40px 0px 0px;
 	background: #F4F7F7;
