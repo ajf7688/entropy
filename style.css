@@ -506,6 +506,10 @@ background-color: rgba(0,0,0,.5);
 }
 .block-img {
 
+	display: inline-block;
+    vertical-align: middle;
+    float: none;
+	
 	padding-left: 3em;
     padding-right: 3em;
     padding-top: 1em;
